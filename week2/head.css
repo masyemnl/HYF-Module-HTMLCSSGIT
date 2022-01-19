@@ -5,13 +5,14 @@
   }
   
  
-
-  nav {
+   nav {
    background-color:white;
-    padding: 1% 2%;
+   position: fixed;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+  
   }
   nav img {
     width: 100px;
