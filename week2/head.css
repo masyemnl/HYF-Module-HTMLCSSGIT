@@ -8,7 +8,7 @@
 
   nav {
    background-color:white;
-   position:fixed ;
+   position: fixed;
     padding: 1% 0%;
     display: flex;
     justify-content: space-between;
@@ -148,7 +148,7 @@
     text-align: center;
     padding-top: 50px;
 }
-.img4 {
+.companies-logo {
     background-color: rgb(207, 223, 221);
     display: flex;
     justify-content: space-around;
@@ -221,13 +221,18 @@ li{
    display: none;
  }
 
- .img4 img {
+ .companies-logo{
 
-width: 70px; 
-height: 50px;
+  align-items: center;
+ }
+ .companies-logo img {
+width: 100px; 
+   flex-shrink: 0;
+   justify-content: space-between;
 }
-.nav-img {
-  align-content : center;
+.about-us .row {
+  flex-direction: column;
+
 }
 }
                    
