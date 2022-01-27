@@ -3,34 +3,34 @@ body{
     padding: 10px 20px ;
     background-color: black;
     }
-    #wrap{
+    .wrap {
       background-color: #F0FFF0;
       padding:10px;
       border:dashed;
     
       }
-    #wrap h1 {
+    .wrap h1 {
       text-align:center;
       font-family: 'Times New Roman', Times, serif;
     
     }
-    #wrap-2{
+    .name{
         display: grid;
         grid-template-columns: auto auto ;
       
         }
-    #f_name h2{
+    .firstname h2{
       color:white;
       background-color: black;
       text-align:right;
     }
-    #l_name h2 {
-       color:white;
-       background-color: red;
-       text-align:left;
-       padding-left:10px;
-     }
-    #wrap-3 {
+    .lastname h2 {
+      color:white;
+      background-color: red;
+      text-align:left;
+      padding-left:10px;
+    }
+    .info {
         display: grid;
         grid-template-columns: auto  auto ;
         padding:20px;
@@ -42,20 +42,23 @@ body{
     img {
         border-radius: 50%;
         height: 150px;
+        padding-left: 100px;
     }
     
-    #info{
+    .info-2 {
       font-family: 'Times New Roman', Times, serif ;
       font-weight: bold;
+      padding-left: 130px;
+
     }
     
-    #sub h2{
+    .details h2{
       color: red;
       font-weight: bold;
       background-color:#DCDCDC;
     }
     
-    #sub ul li{
+    .details ul li{
       list-style-type:none;
       color:#2F4F4F;
       font-weight: bold;
